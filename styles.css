@@ -1,0 +1,255 @@
+
+
+/*
+
+Title: Stylesheet Template
+
+Author: Maurice van Cooten
+
+*/
+
+body {
+    background:white;
+    font-size: 16px;
+    font-family:helvetica;
+    margin:0;
+}
+
+a {
+    color:crimson;
+    text-decoration:none;
+}
+
+a:hover {
+    color:black;
+}
+
+
+
+
+/* Navigation
+------------------------------------------*/
+
+nav ul {
+    padding:0;
+    list-style:none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    
+}
+
+nav ul li {
+    margin-right: .5em;
+  
+}
+
+nav ul a {
+    font-family:helvetica;
+    font-color:black;
+}
+
+
+#nav {
+
+  
+    background-color: #000000;
+    color: #f2f2f2;
+    font-size: 40px;
+    font-family: "Calibri";
+    font-style:bold;
+  
+    }
+
+
+
+/* Layout
+------------------------------------------*/
+.sticky{
+    position:fixed;
+    top:0;
+    background:#eeeeee;
+    background:rgba(238,238,238,0.7);
+    width:100%;
+    z-index:20;
+}
+header,
+.container,
+footer {
+    margin: 0 auto;
+    width:88%;
+    max-width: 960px;
+}
+.container,
+footer {
+    margin: 0 auto;
+    width:88%;
+    max-width: 960px;
+    padding: 1em 0;
+}
+
+.wrapper {
+    padding:1em 0;
+    background: #ffffff;    
+}
+section{
+    padding-top:4em;
+}
+
+#women {
+    background:white;
+}
+
+#home {
+    background:white;
+}
+
+/* Slideshow
+------------------------------------------*/
+
+.rslides-container {
+    
+	border-radius:8px;
+    position: relative;
+    margin: 0 0 1em 0;
+    border: solid 1px #eee;
+    padding: 0.375em;
+    background: #fff;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.rslides li {
+        -webkit-backface-visibility: hidden;
+        position: absolute;
+        display: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+
+.rslides img {
+        float: left;
+        width:100%;
+    }
+
+/* Slideshow navigator arrows. */
+
+a.rslides_nav {
+    padding: 0.25em;
+    line-height: 1;
+}
+
+a.rslides_nav.prev {
+        float: left;
+    }
+
+a.rslides_nav.next {
+        float: right;
+    }
+
+a.rslides_nav:hover {
+        text-decoration: none;
+    }
+
+/* Slideshow position indicator tabs. */
+
+.rslides_tabs {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 1;
+}
+
+.rslides_tabs li {
+        margin: 0.375em 0.25em 0;
+        display: inline-block;
+    }
+
+.rslides_tabs a {
+		text-indent: -9999px;
+		font-size:12px;
+		border-radius:50%;
+        display: block;
+        border: 1px solid;
+        border-color: #ccc;
+        background: #eee;
+        width: 1em;  // 12px
+        height: 1em; // 12px
+    }
+
+.rslides_tabs a:hover {
+            border-color: #000;
+        }
+
+/* Highlight the position indicator tab of currently active slide. */
+
+.rslides_here a {
+    background: #e3e3e3;
+}
+
+
+/* social media icons
+------------------------------------------*/
+.social-media {
+    list-style:none;
+    padding:0;
+
+}
+.social-media li {
+    display:inline-block;
+    margin-right:.5em:
+}
+
+.social-media a {
+    display:block;
+    width:32px;
+    height:32px;
+    border-radius:3px;
+
+}
+
+.social-media a:hover {
+
+    opacity:0.7;
+}
+
+
+.facebook{
+    background-image:url(images/facebook.svg);
+}
+
+.twitter{
+    background-image:url(images/twitter.svg);
+}
+.youtube{
+    background-image:url(images/youtube.svg);
+}
+.googleplus
+{
+    background-image:url(images/googleplus.svg);
+}
+.github{
+    background-image:url(images/github.svg);
+}
+.flickr{
+    background-image:url(images/flickr.svg);
+}
+.pinterest{
+    background-image:url(images/pinterest.svg);
+}
+.linkedin{
+    background-image:url(images/linkedin.svg);
+}
+
+
+
+
